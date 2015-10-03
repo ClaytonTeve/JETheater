@@ -1,0 +1,67 @@
+@media screen and (min-width: 480px) {
+  
+/*******************************
+TWO COLUMN LAYOUT
+*******************************/
+
+#primary {
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+  }
+
+#primary h2 {
+  margin-top: 0;
+}
+
+#secondary {
+  width: 40%;
+  float: right;
+  }
+
+  
+
+@media screen and (min-width: 660px) {
+  
+  
+/*******************************
+PAGE: HEADER
+*******************************/
+
+#jester {
+    width: 45%;
+    float: right;
+    margin-bottom: 10px;
+  }
+
+#headline {
+  width: 50%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+#maincopy {
+  clear: right;
+  font-size: 1.25em;
+}
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 15%;
+    text-align: right;
+    width: 90%;
+  }
+
+  
+  header {
+    margin-bottom: 60px;
+  }
+
+  .donate {
+   margin: 0 30px;
+  }
+  
+}
