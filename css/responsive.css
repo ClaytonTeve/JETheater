@@ -19,6 +19,7 @@ TWO COLUMN LAYOUT
   float: right;
   }
 
+
   
 
 @media screen and (min-width: 660px) {
@@ -27,6 +28,29 @@ TWO COLUMN LAYOUT
 /*******************************
 PAGE: HEADER
 *******************************/
+
+.musical_left,
+.musical_right {
+  width: 38%;
+  margin: 2%;
+  padding: 20px;
+  float: left;
+  height: 250px;
+}
+
+.musical_right {
+  float: right;
+}
+
+.musical_left h3,
+.musical_right h3 {
+  margin-top: 70px;
+}
+
+#featured_musicals h1 {
+  font-size: 3em;
+  margin-bottom: -40px;
+}
 
 #jester {
     width: 45%;
