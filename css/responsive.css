@@ -3,6 +3,14 @@
 /*******************************
 TWO COLUMN LAYOUT
 *******************************/
+#headline h1 {
+  font-size: 4em;
+}
+
+nav li {
+  font-size: 1em;
+}
+
 
 #primary {
     width: 50%;
@@ -19,7 +27,11 @@ TWO COLUMN LAYOUT
   float: right;
   }
 
+  .current-donors h2 {
+  margin: 10px 20px;
+}
 
+}
   
 
 @media screen and (min-width: 660px) {
@@ -39,6 +51,20 @@ PAGE: HEADER
 }
 
 .musical_right {
+  float: right;
+}
+
+.donate-check,
+.donate-fa {
+  width: 39%;
+  float: left;
+  height: 280px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+
+}
+
+.donate-fa: {
   float: right;
 }
 
@@ -87,5 +113,6 @@ PAGE: HEADER
   .donate {
    margin: 0 30px;
   }
+
   
 }
