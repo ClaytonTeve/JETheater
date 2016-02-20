@@ -19,6 +19,10 @@ TWO COLUMN LAYOUT
   float: right;
   }
 
+<<<<<<< HEAD:Jester-Educational-Theater/css/responsive.css
+=======
+
+>>>>>>> parent of 4af5330... Slow added to jQuery show and hide:css/responsive.css
   
 
 @media screen and (min-width: 660px) {
@@ -28,6 +32,32 @@ TWO COLUMN LAYOUT
 PAGE: HEADER
 *******************************/
 
+<<<<<<< HEAD:Jester-Educational-Theater/css/responsive.css
+=======
+.musical_left,
+.musical_right {
+  width: 38%;
+  margin: 2%;
+  padding: 20px;
+  float: left;
+  height: 250px;
+}
+
+.musical_right {
+  float: right;
+}
+
+.musical_left h3,
+.musical_right h3 {
+  margin-top: 70px;
+}
+
+#featured_musicals h1 {
+  font-size: 3em;
+  margin-bottom: -40px;
+}
+
+>>>>>>> parent of 4af5330... Slow added to jQuery show and hide:css/responsive.css
 #jester {
     width: 45%;
     float: right;
