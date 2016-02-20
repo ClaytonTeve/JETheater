@@ -2,8 +2,6 @@
 GENERAL
 *******************************/
 
-
-
 body {
   font-family: 'Crimson Text', serif;
   background-color: #f5f5f5;
@@ -152,57 +150,16 @@ footer {
 FEATURED MUSICALS
 *******************************/
 
-.exit-button {
-  background-image: url('../img/exit-button.svg');
-  float: right;
-  position: relative;
-  top: -20px;
-  margin: -10px;
-  right: -10px;
-  padding: 20px;
-  background-size: 50px 50px;
-
-}
-
-.musical-title {
-  font-weight: 600;
-  font-style: italic;
-  font-size: 2em;
-  margin-bottom: .25em;
-}
-
-.hidden-box1,
-.hidden-box2 {
-  padding: 50px;
-  height: 440px;
-}
-
-.hidden-box1 {
-  display: none;
-  background-color: #14CC52;
-}
-
-.hidden-box2 {
-  display: none;
-  background-color: #3F74FF;
-}
-
-#featured_musicals h1 {
-  font-size: 2em;
-  margin-bottom: -20px;
-}
-
+#featured_musicals h1,
 .musical_left h3,
 .musical_right h3 {
-  font-size: 1.5em;
-  margin-bottom: -10px;
+  margin-bottom: -20px;
 }
 
 #featured_musicals {
   padding: 20px;
   background-color: #FBFF00;
   text-align: center;
-  height: 500px;
 }
 
 .musical_left {
