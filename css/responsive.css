@@ -3,6 +3,14 @@
 /*******************************
 TWO COLUMN LAYOUT
 *******************************/
+#headline h1 {
+  font-size: 4em;
+}
+
+nav li {
+  font-size: 1em;
+}
+
 
 #primary {
     width: 50%;
@@ -19,10 +27,11 @@ TWO COLUMN LAYOUT
   float: right;
   }
 
-<<<<<<< HEAD:Jester-Educational-Theater/css/responsive.css
-=======
+  .current-donors h2 {
+  margin: 10px 20px;
+}
 
->>>>>>> parent of 4af5330... Slow added to jQuery show and hide:css/responsive.css
+}
   
 
 @media screen and (min-width: 660px) {
@@ -32,8 +41,6 @@ TWO COLUMN LAYOUT
 PAGE: HEADER
 *******************************/
 
-<<<<<<< HEAD:Jester-Educational-Theater/css/responsive.css
-=======
 .musical_left,
 .musical_right {
   width: 38%;
@@ -47,6 +54,20 @@ PAGE: HEADER
   float: right;
 }
 
+.donate-check,
+.donate-fa {
+  width: 39%;
+  float: left;
+  height: 280px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+
+}
+
+.donate-fa: {
+  float: right;
+}
+
 .musical_left h3,
 .musical_right h3 {
   margin-top: 70px;
@@ -57,7 +78,6 @@ PAGE: HEADER
   margin-bottom: -40px;
 }
 
->>>>>>> parent of 4af5330... Slow added to jQuery show and hide:css/responsive.css
 #jester {
     width: 45%;
     float: right;
@@ -93,5 +113,6 @@ PAGE: HEADER
   .donate {
    margin: 0 30px;
   }
+
   
 }

@@ -1,10 +1,24 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 /*******************************
 GENERAL
 *******************************/
 
+
+
 body {
   font-family: 'Crimson Text', serif;
   background-color: #f5f5f5;
+}
+
+i {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
 }
 
 
@@ -70,7 +84,7 @@ header {
 
 #headline h1 {
   font-family: 'papyrus', 'Crimson Text', serif; 
-  font-size: 4em;
+  font-size: 3em;
   line-height: 1.125em;
   margin-top: 0;
   margin-bottom: 0;
@@ -115,6 +129,7 @@ nav ul {
 
 nav li {
   display: inline-block;
+  font-size: .75em
 }
 
 nav a {
@@ -150,9 +165,6 @@ footer {
 FEATURED MUSICALS
 *******************************/
 
-<<<<<<< HEAD:Jester-Educational-Theater/css/main.css
-#featured_musicals h1,
-=======
 .exit-button {
   background-image: url('../img/exit-button.svg');
   float: right;
@@ -175,7 +187,7 @@ FEATURED MUSICALS
 .hidden-box1,
 .hidden-box2 {
   padding: 50px;
-  height: 440px;
+  height: 500px;
 }
 
 .hidden-box1 {
@@ -188,25 +200,23 @@ FEATURED MUSICALS
   background-color: #3F74FF;
 }
 
+
 #featured_musicals h1 {
   font-size: 2em;
   margin-bottom: -20px;
 }
 
->>>>>>> parent of 4af5330... Slow added to jQuery show and hide:css/main.css
 .musical_left h3,
 .musical_right h3 {
-  margin-bottom: -20px;
+  font-size: 1.5em;
+  margin-bottom: -10px;
 }
 
 #featured_musicals {
   padding: 20px;
   background-color: #FBFF00;
   text-align: center;
-<<<<<<< HEAD:Jester-Educational-Theater/css/main.css
-=======
-  height: 500px;
->>>>>>> parent of 4af5330... Slow added to jQuery show and hide:css/main.css
+  height: 550px;
 }
 
 .musical_left {
@@ -270,6 +280,92 @@ CONTACT
 .contact-info li.facebook a {
   background-image: url('../img/facebook.png');
 }
+
+
+
+/*******************************
+DONORS
+*******************************/
+
+
+#donate-options {
+  padding-top: 130px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#donate-options h1,
+#donate-options h2 {
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+  text-align: center;
+}
+
+#donate-options h1 {
+  font-size: 3em;
+}
+
+#donate-options h2 {
+  font-size: 2.25em;
+}
+
+.donate-check,
+.donate-fa {
+  font-size: .8em;
+  margin-top: 50px;
+  display: inline-block;
+  border: 2px solid;
+  padding: 15px;
+}
+
+.donate-check p,
+.donate-fa p {
+  margin: 30 0 0 0;
+  padding: 0;
+  font-size: 1.25em;
+}
+
+.current-donors {
+  padding: 20px;
+  text-align: center;
+}
+
+.current-donors h1 {
+  font-size: 2.5em;
+  line-height: 1em;
+  padding: 50px 3px 15px;
+  border-bottom: 2px solid #0094e6;
+}
+
+.current-donors h2 {
+  font-size: 1.25em;
+  display: inline-block;
+  color: white;
+  background-color: #0094e6;
+  border-radius: 5px;
+  width: 250px;
+  padding: 5px 0;
+
+}
+
+.check-addres {
+  text-align: center;
+}
+
+#fa a {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  margin: auto;
+  width: 200px;
+  font-family: 'Crimson Text', serif;
+}
+
+
 /*******************************
 COLORS
 *******************************/
